@@ -118,10 +118,11 @@ body {
   display: flex;
   margin-left: 15px;
   align-items: center;
+  
 }
 
 .intro img {
-  width: 200px;
+  width: 270px;
   display: inline-block;
   margin-right: 20px;
   
@@ -143,8 +144,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-align: justify;
-  margin: 25px;
+  margin: 40px;
   color: #C3FCF2;
+  font-size: 25px;
 }
 
 .flex-div1 {
@@ -196,6 +198,10 @@ body {
   font-size: 50px;
   text-align: center;
 }
+.register a
+{
+  color: #006B60;
+}
 
 
 
@@ -219,11 +225,50 @@ body {
 .footer-2 {
     word-spacing: 15px;
     margin-bottom: 15px;
+    color: #FFBF00;
+    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     .footer-1 {
       width: 100%;
     }
+    .web-logo
+    {
+      align-items: center;
+      max-width: 250px;
+    margin-left:50px;
+    margin-right: 50px;
+    }
+    .content
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .question{
+      
+      width: 100%;
+  padding: 10%;
+  background-color: #FFBF00;
+  color: #006B60;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  font-size: 35px;
+  display: flex;
+    }
+    .about
+    {
+      display: flex;
+    }
+    .info
+    {
+      display: flex;
+
+    }
+
+
   }
+ 
+
 
