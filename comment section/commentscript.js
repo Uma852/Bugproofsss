@@ -26,7 +26,7 @@ let br =document.createElement("br");
 // button.innerText="delete post";
 btag.append(username);
 li.append(btag);
-li.append(" --  has commented -   ");
+li.append("     --  has commented --   ");
 li1.append(comment);
 
 chatscontainer.append(li);
