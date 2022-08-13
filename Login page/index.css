@@ -84,6 +84,28 @@ img{
     color: wheat;
 }
 
+.cards{
+    display: flex;
+    margin :0px;
+}
+.card1{
+    padding-right:10px;
+}
+.card2{
+    padding-left:30px;
+}
+
+.fa-brands{
+    color:white;
+    padding:25px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color:white;
+}
+
 @media only screen and (max-width: 410px) {
     body
     {
