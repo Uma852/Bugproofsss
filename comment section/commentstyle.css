@@ -1,0 +1,136 @@
+body{
+    
+    background-color: #FFBF00;
+    font-family: 'Montserrat', sans-serif;
+}
+.box h1,h2{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+    
+}
+.box{
+    text-align: center;
+    background-color:#006877;
+    align-items:center;
+    border:solid black 2px;
+    color: white;
+    justify-content: center;
+    margin:20px auto;
+    width: 35%;
+    height: 350px;
+    padding: 14px 10px;
+    display:block;
+    transition: 0.25s;
+    border-radius: 24px;
+    animation-name: tweet;
+    animation-delay: 1s;
+}
+ 
+@media screen and (max-width: 700px) {
+    body {
+      background-color: #006877;
+    }
+   
+    .box{
+        text-align: center;
+        background-color: #FFBF00;
+
+    }
+    .box h1,h2{
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 647px) {
+    body{
+        background-color: #FFBF00;
+    }
+    .box h1,h2{
+        margin: 0%;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+        
+    }
+    .box{
+        display: flex;
+        background-color: #006877;
+        flex-direction: column;
+        padding-top:50px;
+        padding-bottom: 50px;
+      
+    }
+    .button{
+        margin:10px;
+        border-radius: 10px;
+        width:30%;
+        height: 200px;
+        transition: 0.75s;
+        
+    
+    }
+    .button:hover{
+        background-color: #FFBF00;
+        color:black;
+        transform: scale(1.15);
+    
+    }
+    .username{
+    margin:25px;
+    width:100px;
+    height:20px;
+    }
+    .comment{
+
+        margin:25px;
+        width:100px;
+        height:20px;
+        }
+    .button{
+        
+        margin:500px;
+        width:100px;
+        height:20px;
+        }
+    }
+
+  
+
+
+.box input[type="text"]{
+    overflow:auto;
+    width:40%;
+    height: 15%;
+}
+.box .username{
+  margin-right:20px;
+  border-radius: 10px;
+  border:2px black solid;
+}
+.box .comment{
+    margin-left:20px;
+    border-radius: 10px;
+    border:2px black solid;
+  }
+.button{
+    margin:20px;
+    border-radius: 20px;
+    width:40%;
+    height: 20%;
+    transition: 0.75s;
+    
+
+}
+.button:hover{
+    background-color: #FFBF00;
+    color:black;
+    transform: scale(1.15);
+
+}
+.img{
+    background:no-repeat;}
