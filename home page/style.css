@@ -151,10 +151,20 @@ body {
 
 .flex-div1 {
   display: flex;
+  justify-content: center;
+  
+}
+.card{
+  transition: ease 1s;
+}
+.card:hover{
+  
+  transform: scale(1.1);
 }
 
 .flex-div2 {
   display: flex;
+ 
 }
 
 .info {
